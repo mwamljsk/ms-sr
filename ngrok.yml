@@ -1,0 +1,5 @@
+authtoken: 28xFiBb9gMlAS38WtldPM2u0HCu_24SxgEeSYPBdwHoz8ZDog
+tunnels:
+  minecraft:
+    proto: tcp
+    addr: 25565

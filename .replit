@@ -1,0 +1,20 @@
+run = "bash ./start.sh"
+
+
+[packager]
+language = "java"
+
+[packager.features]
+packageSearch = true
+
+[languages.java]
+pattern = "**/*.java"
+
+[languages.java.languageServer]
+start = "jdt-language-server"
+
+[unitTest]
+language = "java"
+
+[nix]
+channel = "stable-22_11"
